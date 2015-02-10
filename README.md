@@ -4,6 +4,10 @@ This template builds a VirtualBox image based on Debian Wheezy 7.6.0. The VM is
 configured to use 512 MB of RAM and 1 CPU. Those settings, as many others, can
 be changed in the `debian-7.6.0-wheezy.json` file.
 
+iso_url may be:
+	"iso_url": "D:\\debian-7.8.0-amd64-netinst.iso",
+	"iso_url": "http://cdimage.debian.org/debian-cd/7.8.0/amd64/iso-cd/debian-7.8.0-amd64-netinst.iso",
+
 ## Usage
 1. Be sure you have Packer and [VirtualBox](https://www.virtualbox.org/)
 installed in your system.
